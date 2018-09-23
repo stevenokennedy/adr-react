@@ -1,0 +1,32 @@
+{
+  "name": "adr-node",
+  "version": "1.0.0",
+  "description": "Architecural Decision Record Tool for Node",
+  "main": "./lib/index.js",
+  "bin": {
+    "adr": "./bin/adr.js",
+    "adr-ui": "./bin/adr-ui.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ADR"
+  ],
+  "author": "Steven O'Kennedy",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "fs-extra": "^7.0.0",
+    "git-state": "^4.1.0",
+    "lodash.template": "^4.4.0",
+    "moment": "^2.22.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "string.prototype.padstart": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.9"
+  }
+}
